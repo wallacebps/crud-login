@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { createUserWithEmailAndPassword } from "firebase/auth"; // Removemos a importação de getAuth
-import { auth } from "../firebaseConfig";
+import { auth } from "../../firebaseConfig";
 
 const Signup = () => {
   const router = useRouter();

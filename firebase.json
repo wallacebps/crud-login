@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src",
+    "public": ".next",
     "ignore": [
       "firebase.json",
       "**/.*",

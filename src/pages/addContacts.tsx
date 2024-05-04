@@ -5,6 +5,7 @@ import { signOut } from "firebase/auth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";
+import 'tailwindcss/tailwind.css';
 
 const AddContacts = () => {
   const router = useRouter();

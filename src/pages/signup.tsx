@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebaseConfig";
+import 'tailwindcss/tailwind.css';
 
 const Signup = () => {
   const router = useRouter();
